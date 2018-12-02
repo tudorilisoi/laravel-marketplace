@@ -2,6 +2,10 @@
   "name": "app",
   "description": "Vue Build Application",
   "version": "0.1.0",
+  "scripts":{
+    "develop":"npx vue-build dev",
+    "build":"npx vue-build prod"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0-beta.2",
